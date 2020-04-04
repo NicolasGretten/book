@@ -35,7 +35,7 @@ class Projects extends React.Component {
         })
     }
     getDesigns() {
-        axios.get(`./api/designs`).then(res => {
+        axios.get(`./index.php/api/designs`).then(res => {
             const designs = res.data;
             this.setState({ designs: designs})
         })
