@@ -23,19 +23,19 @@ class Projects extends React.Component {
     }
     
     getSites() {
-       axios.get(`index.php/api/sites`).then(res => {
+       axios.get(`./index.php/api/sites`).then(res => {
            const sites = res.data;
            this.setState({ sites: sites})
        })
     }
     getGames() {
-        axios.get(`index.php/api/games`).then(res => {
+        axios.get(`./index.php/api/games`).then(res => {
             const games = res.data;
             this.setState({ games: games})
         })
     }
     getDesigns() {
-        axios.get(`index.php/api/designs`).then(res => {
+        axios.get(`./api/designs`).then(res => {
             const designs = res.data;
             this.setState({ designs: designs})
         })
