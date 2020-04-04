@@ -17,7 +17,7 @@ class HomeController extends AbstractController
     }
 
         /**
-     * @Route("index.php/api/sites", name="sites")
+     * @Route("/api/sites", name="sites")
      * @return \Symfony\Component\HttpFoundation\JsonResponse
      */
     public function getSites()
@@ -60,7 +60,7 @@ class HomeController extends AbstractController
         return $response;
     }
     /**
-     * @Route("index.php/api/games", name="games")
+     * @Route("/api/games", name="games")
      *
      * @return \Symfony\Component\HttpFoundation\JsonResponse
      */
@@ -105,7 +105,7 @@ class HomeController extends AbstractController
     }
     
     /**
-     * @Route("index.php/api/designs", name="designs")
+     * @Route("/api/designs", name="designs")
      *
      * @return \Symfony\Component\HttpFoundation\JsonResponse
      */

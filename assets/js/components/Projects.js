@@ -3,10 +3,7 @@ import { Transition } from 'react-transition-group';
 import {Link} from 'react-router-dom';
 import axios from 'axios';
 
-const anime = {
-    opacity: 0.5,
-  }
-const timer = setInterval(() => console.log('Hello, World!'), 1000);
+
 class Projects extends React.Component {
     constructor() {
         super();
@@ -26,19 +23,19 @@ class Projects extends React.Component {
     }
     
     getSites() {
-       axios.get(`/api/sites`).then(res => {
+       axios.get(`index.php/api/sites`).then(res => {
            const sites = res.data;
            this.setState({ sites: sites})
        })
     }
     getGames() {
-        axios.get(`/api/games`).then(res => {
+        axios.get(`index.php/api/games`).then(res => {
             const games = res.data;
             this.setState({ games: games})
         })
     }
     getDesigns() {
-        axios.get(`/api/designs`).then(res => {
+        axios.get(`index.php/api/designs`).then(res => {
             const designs = res.data;
             this.setState({ designs: designs})
         })
@@ -49,7 +46,7 @@ class Projects extends React.Component {
         <div>
            <div class="container mt-5 pt-5 pb-5">
                 <div class="col p-0">
-                    <div class="h1" ><i class="fab fa-firefox rotating" style={anime}></i> Les Sites</div>
+                    <div class="h1" ><i class="fab fa-firefox rotating"></i> Les Sites</div>
                 </div>
             </div>
             <div class="container mt-5">
