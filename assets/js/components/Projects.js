@@ -106,7 +106,7 @@ class Projects extends React.Component {
                                         <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
-                                    <div class="modal-body text-center embed-responsive">
+                                    <div class="modal-body text-center">
                                         <iframe class="embed-responsive-item" width="400" height="600" src={ game.link }></iframe>
                                     </div>
                                 </div>
