@@ -81,7 +81,7 @@ class HomeController extends AbstractController
                 'name' =>'Morpion',
                 'desc' =>'Morpion en JavaScript',
                 'icon' =>'fas fa-dice-two',
-                'link' =>'#'
+                'link' =>'http://nicolas-gretten.fr:8083'
             ],
             [
                 'index' => 3,
@@ -116,7 +116,7 @@ class HomeController extends AbstractController
                 'index' => 1,
                 'image' =>'https://dummyimage.com/600x400/2685eb/fff',
                 'name' =>'Leduc guitar',
-                'desc' =>'Premier maquettage sur InDesign, maquettage d\'une application de gestion de commandes pour un luthier.',
+                'desc' =>'Maquettage d\'une application de gestion de commandes pour un luthier.',
                 'icon' =>'fas fa-palette',
                 'link' =>'#'
             ],
