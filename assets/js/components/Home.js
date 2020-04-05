@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Route, Switch,Redirect, Link, withRouter} from 'react-router-dom';
+// import { HashRouter, Route, Switch } from 'react-router-dom';
 import Cv from './Cv';
 import Accueil from './Accueil';
 import Contact from './Contact';
@@ -55,6 +56,15 @@ class Home extends Component {
                    <Route path="/contact" component={Contact} />
                    <Route path="/projects" component={Projects} />
                </Switch>
+               {/* <HashRouter>
+                    <Switch>
+                        <Redirect exact from="/" to="/accueil" />
+                        <Route path="/cv" component={Cv} />
+                        <Route path="/accueil" component={Accueil} />
+                        <Route path="/contact" component={Contact} />
+                        <Route path="/projects" component={Projects} />
+                    </Switch>
+                </HashRouter> */}
                <footer class="page-footer text-center font-small info-color-light mt-5 bg-light">
                     <div class="rgba-stylish-strong">
                         <div class="pb-4 pt-5">
