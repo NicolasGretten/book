@@ -8,7 +8,7 @@ import Projects from './Projects';
 class Home extends Component {
     render() {
         return (
-            
+        <Router>
            <div>
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <Link  className={"navbar-brand"} to={"/accueil"}>Nicolas Gretten <i class="fab fa-symfony"></i><i class="fab fa-react rotating"></i> Mon Portfolio</Link>
@@ -47,15 +47,29 @@ class Home extends Component {
                         </div>
                     </div>
                 </nav>
-                <Router>
                     <Switch>
-                        <Redirect exact from="/" to="/accueil" />
-                        <Route path="/cv" component={Cv} />
+                        {/* <Redirect exact from="/" to="/accueil" /> */}
+                        {/* <Route path="/cv" component={Cv} />
                         <Route path="/accueil" component={Accueil} />
                         <Route path="/contact" component={Contact} />
-                        <Route path="/projects" component={Projects} />
+                        <Route path="/projects" component={Projects} /> */}
+                        <Route exact path="/">
+                            <Accueil />
+                        </Route>
+                        <Route exact path="/accueil">
+                            <Accueil />
+                        </Route>
+                        <Route path="/cv">
+                            <Cv />
+                        </Route>
+                        <Route path="/contact">
+                            <Contact />
+                        </Route>
+                        <Route path="/projects">
+                            <Projects />
+                        </Route>
                     </Switch>
-               </Router>
+               
                <footer class="page-footer text-center font-small info-color-light mt-5 bg-light">
                     <div class="rgba-stylish-strong">
                         <div class="pb-4 pt-5">
@@ -79,6 +93,7 @@ class Home extends Component {
                     </div>
                 </footer>
            </div>
+        </Router>
         )
     }
 }
