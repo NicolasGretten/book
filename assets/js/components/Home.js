@@ -56,7 +56,7 @@ class Home extends Component {
                         <Route exact path="/">
                             <Accueil />
                         </Route>
-                        <Route exact path="/accueil">
+                        <Route path="/accueil">
                             <Accueil />
                         </Route>
                         <Route path="/cv">
