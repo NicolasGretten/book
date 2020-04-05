@@ -73,7 +73,7 @@ class HomeController extends AbstractController
                 'name' =>'Mastermind',
                 'desc' =>'Mastermind en JavaScript',
                 'icon' =>'fas fa-dice-one',
-                'link' =>'#'
+                'link' =>'http://nicolas-gretten.fr:8083'
             ],
             [
                 'index' => 2,
@@ -89,7 +89,7 @@ class HomeController extends AbstractController
                 'name' =>'To Do List',
                 'desc' =>'To do list en JavaScript',
                 'icon' =>'fas fa-dice-three',
-                'link' =>'#'
+                'link' =>'http://nicolas-gretten.fr:8083'
             ],
     ];
 

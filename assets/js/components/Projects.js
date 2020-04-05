@@ -94,10 +94,10 @@ class Projects extends React.Component {
                                 <h4 class="card-title"><i class={ game.icon }></i> { game.name }</h4>
                                 <hr class="hr-light"/>
                                 <p class="card-text white-text mb-4">{ game.desc }</p>
-                                <a href={ game.link } class="btn btn-primary btn-lg float-right" data-toggle="modal" data-target={"#modalGame"+(game.index) }>Voir le jeu !</a>
+                                <a href="#" class="btn btn-primary btn-lg float-right" data-toggle="modal" data-target={"#modalGame"+(game.index) }>Voir le jeu !</a>
                             </div>
                         </div>
-                        <div class="modal fade" id={"modalGame"+ (game.index) } tabindex="-1" role="dialog" aria-labelledby={"modalMaquettage"+ (game.index )} aria-hidden="true">
+                        <div class="modal fade w-100 h-100" id={"modalGame"+ (game.index) } tabindex="-1" role="dialog" aria-labelledby={"modalMaquettage"+ (game.index )} aria-hidden="true">
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -106,10 +106,8 @@ class Projects extends React.Component {
                                         <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
-                                    <div class="modal-body text-center">
-                                        
-                                        <iframe src={ game.link }></iframe>
-                                        
+                                    <div class="modal-body text-center embed-responsive">
+                                        <iframe class="embed-responsive-item" width="400" height="600" src={ game.link }></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -138,7 +136,7 @@ class Projects extends React.Component {
                                 <h4 class="card-title"><i class={ design.icon }></i> { design.name }</h4>
                                 <hr class="hr-light"/>
                                 <p class="card-text white-text mb-4">{ design.desc }</p>
-                                <a href={ design.link } class="btn btn-primary btn-lg float-right" data-toggle="modal" data-target={"#modalMaquettage"+(design.index) }>Voir le jeu !</a>
+                                <a href={ design.link } class="btn btn-primary btn-lg float-right" data-toggle="modal" data-target={"#modalMaquettage"+(design.index) }>Voir le maquettage !</a>
                             </div>
                         </div>
                         <div class="modal fade" id={"modalMaquettage"+ (design.index) } tabindex="-1" role="dialog" aria-labelledby={"modalMaquettage"+ (design.index )} aria-hidden="true">
