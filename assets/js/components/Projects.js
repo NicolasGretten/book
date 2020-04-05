@@ -94,7 +94,9 @@ class Projects extends React.Component {
                                 <h4 class="card-title"><i class={ game.icon }></i> { game.name }</h4>
                                 <hr class="hr-light"/>
                                 <p class="card-text white-text mb-4">{ game.desc }</p>
-                                <a href="#" class="btn btn-primary btn-lg float-right" data-toggle="modal" data-target={"#modalGame"+(game.index) }>Voir le jeu !</a>
+                                <a href="#" class="btn btn-primary btn-md float-left" data-toggle="modal" data-target={"#modalGame"+(game.index) }>Aperçus du jeu !</a>
+                                <a href={ game.link } class="btn btn-warning btn-md float-right">Accéder au jeu</a>
+                                
                             </div>
                         </div>
                         <div class="modal fade w-100 h-100" id={"modalGame"+ (game.index) } tabindex="-1" role="dialog" aria-labelledby={"modalMaquettage"+ (game.index )} aria-hidden="true">
@@ -140,7 +142,7 @@ class Projects extends React.Component {
                             </div>
                         </div>
                         <div class="modal fade" id={"modalMaquettage"+ (design.index) } tabindex="-1" role="dialog" aria-labelledby={"modalMaquettage"+ (design.index )} aria-hidden="true">
-                            <div class="modal-dialog" role="document">
+                            <div class={"modal-dialog "+(design.size)} role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <h5 class="modal-title" id="exampleModalLongTitle">{ design.name }</h5>
@@ -149,7 +151,10 @@ class Projects extends React.Component {
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                        { design.index }
+                                        { design.content.map((value, index) =>{
+                                            return <img src={ value } class="w-100 img-responsive mt-4 mb-4 border"></img>
+                                           
+                                        }) }
                                     </div>
                                 </div>
                             </div>

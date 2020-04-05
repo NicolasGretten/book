@@ -114,27 +114,41 @@ class HomeController extends AbstractController
         $designs = [
             [
                 'index' => 1,
-                'image' =>'https://dummyimage.com/600x400/2685eb/fff',
-                'name' =>'Leduc guitar',
-                'desc' =>'Maquettage d\'une application de gestion de commandes pour un luthier.',
+                'image' =>'/img/mobile/screen.png',
+                'name' =>'avoizejotattoo.lu',
+                'desc' =>'Maquettage version mobile pour le site avoizejotattoo.lu avec dialogue écrans',
                 'icon' =>'fas fa-palette',
-                'link' =>'#'
+                'size' =>'',
+                'content'=>['/img/mobile/Maquettage_AvoizeJos-01.png','/img/mobile/Maquettage_AvoizeJos-02.png','/img/mobile/Maquettage_AvoizeJos-03.png',
+                '/img/mobile/Maquettage_AvoizeJos-04.png','/img/mobile/Maquettage_AvoizeJos-05.png','/img/mobile/Maquettage_AvoizeJos-06.png',
+                '/img/mobile/Maquettage_AvoizeJos-07.png','/img/mobile/Maquettage_AvoizeJos-08.png','/img/mobile/Maquettage_AvoizeJos-09.png',
+                '/img/mobile/Maquettage_AvoizeJos-10.png','/img/mobile/Maquettage_AvoizeJos-11.png','/img/mobile/Maquettage_AvoizeJos-12.png',
+                '/img/mobile/Maquettage_AvoizeJos-13.png',]
             ],
             [
                 'index' => 2,
-                'image' =>'https://dummyimage.com/600x400/2685eb/fff',
+                'image' =>'/img/desktop/Maquettage_AvoizeJos_Version_Desktop-01.png',
                 'name' =>'avoizejotattoo.lu',
                 'desc' =>'Maquettage du Front End pour le site avoizejotattoo.lu avec dialogue écrans',
                 'icon' =>'fas fa-palette',
-                'link' =>'#'
+                'size' =>'modal-xl',
+                'content'=>['/img/desktop/Maquettage_AvoizeJos_Version_Desktop-01.png','/img/desktop/Maquettage_AvoizeJos_Version_Desktop-02.png',
+                '/img/desktop/Maquettage_AvoizeJos_Version_Desktop-03.png','/img/desktop/Maquettage_AvoizeJos_Version_Desktop-04.png','/img/desktop/Maquettage_AvoizeJos_Version_Desktop-05.png',
+                '/img/desktop/Maquettage_AvoizeJos_Version_Desktop-06.png','/img/desktop/Maquettage_AvoizeJos_Version_Desktop-07.png','/img/desktop/Maquettage_AvoizeJos_Version_Desktop-08.png',
+                '/img/desktop/Maquettage_AvoizeJos_Version_Desktop-09.png','/img/desktop/Maquettage_AvoizeJos_Version_Desktop-10.png','/img/desktop/Maquettage_AvoizeJos_Version_Desktop-11.png',
+                '/img/desktop/Maquettage_AvoizeJos_Version_Desktop-12.png','/img/desktop/Maquettage_AvoizeJos_Version_Desktop-13.png','/img/desktop/Maquettage_AvoizeJos_Version_Desktop-14.png',
+                '/img/desktop/Maquettage_AvoizeJos_Version_Desktop-15.png','/img/desktop/Maquettage_AvoizeJos_Version_Desktop-16.png','/img/desktop/Maquettage_AvoizeJos_Version_Desktop-17.png',
+                '/img/desktop/Maquettage_AvoizeJos_Version_Desktop-18.png','/img/desktop/Maquettage_AvoizeJos_Version_Desktop-19.png','/img/desktop/Maquettage_AvoizeJos_Version_Desktop-20.png',]
             ],
             [
                 'index' => 3,
-                'image' =>'https://dummyimage.com/600x400/2685eb/fff',
+                'image' =>'/img/admin/Maquettage_AvoizeJos_panel_admin-1.png',
                 'name' =>'avoizejotattoo.lu',
                 'desc' =>'Maquettage du Panel admin pour le site avoizejotattoo.lu avec dialogue écrans',
                 'icon' =>'fas fa-palette',
-                'link' =>'#'
+                'size' =>'modal-xl',
+                'content'=>['/img/admin/Maquettage_AvoizeJos_panel_admin-1.png','/img/admin/Maquettage_AvoizeJos_panel_admin-2.png','/img/admin/Maquettage_AvoizeJos_panel_admin-3.png',
+                '/img/admin/Maquettage_AvoizeJos_panel_admin-4.png','/img/admin/Maquettage_AvoizeJos_panel_admin-5.png']
             ],
         ];
 
