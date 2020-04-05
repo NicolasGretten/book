@@ -11,7 +11,7 @@ class Home extends Component {
         <Router>
            <div>
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <Link  className={"navbar-brand"} to={"/accueil"}>Nicolas Gretten <i class="fab fa-symfony"></i><i class="fab fa-react rotating"></i> Mon Portfolio</Link>
+                    <Link  className={"navbar-brand"} to={"/"}>Nicolas Gretten <i class="fab fa-symfony"></i><i class="fab fa-react rotating"></i> Mon Portfolio</Link>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -19,7 +19,7 @@ class Home extends Component {
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <Link  className={"navbar-brand"} to={"/accueil"}>Accueil <span class="sr-only">(current)</span></Link>
+                            <Link  className={"navbar-brand"} to={"/"}>Accueil <span class="sr-only">(current)</span></Link>
                         </li>
                         <li class="nav-item active">
                             <Link className={"nav-link"} to={"/projects"}>Mes projets</Link>
