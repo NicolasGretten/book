@@ -4,7 +4,7 @@ import Cv from './Cv';
 import Accueil from './Accueil';
 import Contact from './Contact';
 import Projects from './Projects';
-import Presentation from './presentation';
+import Presentation from './Presentation';
 
 class Home extends Component {
     render() {
