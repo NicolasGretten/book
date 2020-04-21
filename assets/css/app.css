@@ -11027,3 +11027,85 @@
     -o-animation: rotating 5s linear infinite;
     animation: rotating 5s linear infinite;
   }
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+.component {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.component.first-component {
+    background-image:url('../../public/img/diapo/Diapositive1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.first-component--inside-scroller {
+    position: absolute;
+    right: 20px;
+    top: 100px;
+}
+
+.component.second-component {
+  background-image:url('../../public/img/diapo/Diapositive2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.component.third-component {
+  background-image:url('../../public/img/diapo/Diapositive3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.component.fourth-component {
+  background-image:url('../../public/img/diapo/Diapositive4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.component.fifth-component {
+  background-image:url('../../public/img/diapo/Diapositive5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.pagination-additional-class {
+    margin: 0;
+    position: fixed;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.pagination-additional-class > li:not(:last-of-type) > a, .pagination-additional-class > li:not(:last-of-type) > span {
+    margin-right: 50px;
+}
+
+.demo-page-contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.demo-page-contain__hint {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .pagination-additional-class > li:not(:last-of-type) > a, .pagination-additional-class > li:not(:last-of-type) > span {
+        margin-right: 5px;
+    }
+}

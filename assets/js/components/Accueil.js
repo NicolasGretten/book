@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-import axios from 'axios';
+import Nav from './Nav';
+import Footer from './Footer';
 const ColoredLine = ({ color }) => (
     <hr
         style={{
@@ -31,7 +32,9 @@ class Accueil extends Component {
     
     render() {
         return (
+           
         <div>
+            <Nav />
             <div class="container mt-5">
                 <div class="jumbotron  bg-light">
                     <h1 class="display-4">Bienvenue !</h1>
@@ -99,6 +102,7 @@ class Accueil extends Component {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
         )
     }

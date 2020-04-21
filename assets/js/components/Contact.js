@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import axios from 'axios';
+import Nav from './Nav';
+import Footer from './Footer';
     
 class Contact extends Component {
     constructor() {
@@ -19,6 +20,8 @@ class Contact extends Component {
     
     render() {
         return(
+        <div>
+            <Nav />
             <div class="container mt-5 mb-5">
                 <div class="row">
                     <div class="jumbotron jumbotron-fluid m-auto p-5">
@@ -49,6 +52,8 @@ class Contact extends Component {
                     </div>
                 </div>
             </div>
+            <Footer />
+       </div>
         )
     }
 }

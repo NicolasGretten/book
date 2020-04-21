@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import axios from 'axios';
+import Nav from './Nav';
+import Footer from './Footer';
 
 class Cv extends Component {
     constructor() {
@@ -8,13 +9,15 @@ class Cv extends Component {
     render() {
         return(
             <div>
-                <div class="container mt-5">
-                    <div class="row text-center">
-                        <h1>Mon Cv</h1>
-                        <img src="/img/Nicolas-gretten.png" class="border"/>
+                <Nav />
+                    <div class="container mt-5">
+                        <div class="row text-center">
+                            <h1>Mon Cv</h1>
+                            <img src="/img/Nicolas-gretten.png" class="border"/>
+                        </div>
                     </div>
-                </div>
         )
+                <Footer />
             </div>
             
         )

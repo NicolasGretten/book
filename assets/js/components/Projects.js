@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import { Transition } from 'react-transition-group';
-import {Link} from 'react-router-dom';
+import Nav from './Nav';
+import Footer from './Footer';
 import axios from 'axios';
 
 
@@ -44,9 +44,10 @@ class Projects extends React.Component {
     render() {
         return (
         <div>
+            <Nav />
            <div class="container mt-5 pt-5 pb-5">
                 <div class="col p-0">
-                    <div class="h1" ><i class="fab fa-firefox rotating"></i> Les Sites</div>
+                    <div class="h1" ><i class="fab fa-firefox"></i> Les Sites</div>
                 </div>
             </div>
             <div class="container mt-5">
@@ -163,6 +164,7 @@ class Projects extends React.Component {
                     )}
                 </div>  
             </div>
+            <Footer />
         </div>
         )
     }
