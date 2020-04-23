@@ -47,7 +47,7 @@ class Contact extends Component {
                                     <div class="col ml-5 h4">
                                         <strong>
                                             ngretten@gmail.com
-                                            <a href="mailto:ngretten@gmail.com"><button class="btn-sm btn-outline-dark mt-3">me contacter</button></a>
+                                            <a href="mailto:ngretten@gmail.com"><button class="btn-sm btn-outline-dark mt-3">Me contacter</button></a>
                                         </strong>
                                     </div>
                                     <div class="col ml-5 h4"><strong>𝕻𝖊𝖗𝖈𝖊𝖛𝖛𝖆𝖑 (nicolas)#2323</strong></div>
