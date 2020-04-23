@@ -53,9 +53,3 @@ Encore
 ;
     
 module.exports = Encore.getWebpackConfig();
-module.exports = {
-    //...
-    devServer: {
-      historyApiFallback: true
-    }
-  };
