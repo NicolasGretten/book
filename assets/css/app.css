@@ -11039,7 +11039,7 @@ html, body {
 }
 
 .component.first-component {
-    background-image:url('https://dummyimage.com/1920x1080/000/fff');
+    background-image:url('https://dummyimage.com/1920x1080/aeaeae/fff');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -11052,14 +11052,14 @@ html, body {
 }
 
 .component.second-component {
-  background-image:url('https://dummyimage.com/1920x1080/000/fff');
+  background-image:url('https://dummyimage.com/1920x1080/adada/fff');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .component.third-component {
-  background-image:url('https://dummyimage.com/1920x1080/000/fff');
+  background-image:url('https://dummyimage.com/1920x1080/dfdfdf/fff');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -11073,7 +11073,7 @@ html, body {
 }
 
 .component.fifth-component {
-  background-image:url('https://dummyimage.com/1920x1080/000/fff');
+  background-image:url('https://dummyimage.com/1920x1080/hfhfhf/fff');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
