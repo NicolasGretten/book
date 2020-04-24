@@ -69,15 +69,15 @@ class HomeController extends AbstractController
         $games = [
             [
                 'index' => 1,
-                'image' =>'https://dummyimage.com/600x400/28d6a5/fff',
+                'image' =>'/img/Mastermind_cover.png',
                 'name' =>'Mastermind',
                 'desc' =>'Mastermind en JavaScript',
                 'icon' =>'fas fa-dice-one',
-                'link' =>'http://nicolas-gretten.fr:8083'
+                'link' =>'http://nicolas-gretten.fr:8084'
             ],
             [
                 'index' => 2,
-                'image' =>'https://dummyimage.com/600x400/28d6a5/fff',
+                'image' =>'/img/morpion_cover.png',
                 'name' =>'Morpion',
                 'desc' =>'Morpion en JavaScript',
                 'icon' =>'fas fa-dice-two',
@@ -85,11 +85,11 @@ class HomeController extends AbstractController
             ],
             [
                 'index' => 3,
-                'image' =>'https://dummyimage.com/600x400/28d6a5/fff',
-                'name' =>'To Do List',
-                'desc' =>'To do list en JavaScript',
+                'image' =>'/img/keycode_cover.png',
+                'name' =>'Key code',
+                'desc' =>'Keycode en JavaScript',
                 'icon' =>'fas fa-dice-three',
-                'link' =>'http://nicolas-gretten.fr:8083'
+                'link' =>'http://nicolas-gretten.fr:8085'
             ],
     ];
 
