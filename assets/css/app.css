@@ -45,7 +45,7 @@ html, body {
 }
 
 .component.first-component {
-    background-image:url('../../public/img/diapo/diapositive1.png');
+    background-image:url('/public/img/diapo/diapositive1.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -58,46 +58,46 @@ html, body {
 }
 
 .component.second-component {
-  background-image:url('../../public/img/diapo/diapositive2.png');
+  background-image:url('/public/img/diapo/diapositive2.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .component.third-component {
-  background-image:url('../../public/img/diapo/diapositive3.png');
+  background-image:url('/public/img/diapo/diapositive3.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .component.fourth-component {
-  background-image:url('../../public/img/diapo/diapositive4.png');
+  background-image:url('/public/img/diapo/diapositive4.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .component.fifth-component {
-  background-image:url('../../public/img/diapo/diapositive5.png');
+  background-image:url('/public/img/diapo/diapositive5.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .component.six-component {
-  background-image:url('../../public/img/diapo/diapositive6.png');
+  background-image:url('/public/img/diapo/diapositive6.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .component.seven-component {
-  background-image:url('../../public/img/diapo/diapositive7.png');
+  background-image:url('/public/img/diapo/diapositive7.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .component.eight-component {
-  background-image:url('../../public/img/diapo/diapositive8.png');
+  background-image:url('/public/img/diapo/diapositive8.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
