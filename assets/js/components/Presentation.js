@@ -10,6 +10,9 @@ import SecondComponent from "./SecondComponent";
 import ThirdComponent from "./ThirdComponent";
 import FourthComponent from "./FourthComponent";
 import FifthComponent from "./FifthComponent";
+import SixComponent from "./SixComponent";
+import SevenComponent from "./SevenComponent";
+import EightComponent from "./EightComponent";
 
 export default class Presentation extends Component {
     constructor(props) {
@@ -90,6 +93,9 @@ export default class Presentation extends Component {
                 <ThirdComponent />
                 <FourthComponent />
                 <FifthComponent />
+                <SixComponent />
+                <SevenComponent />
+                <EightComponent />
                 </ReactPageScroller>
             </React.Fragment>
         );

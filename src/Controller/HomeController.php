@@ -34,8 +34,8 @@ class HomeController extends AbstractController
             ],
             [
                 'index' => 2,
-                'image' =>'/img/screen_boutique.png',
-                'gif' => '/img/screen_boutique.png',
+                'image' =>'/img/oni.png',
+                'gif' => '/img/oni.png',
                 'name' =>'E-boutique',
                 'desc' =>'Je vous présente la boutique réaliser lors de ma formation de développeur web et web mobile.',
                 'icon' =>'fas fa-shopping-cart',

@@ -11039,7 +11039,7 @@ html, body {
 }
 
 .component.first-component {
-    background-image:url('https://dummyimage.com/1920x1080/aeaeae/fff');
+    background-image:url('../../public/img/diapo/Diapositive1.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -11052,33 +11052,50 @@ html, body {
 }
 
 .component.second-component {
-  background-image:url('https://dummyimage.com/1920x1080/adada/fff');
+  background-image:url('../../public/img/diapo/Diapositive2.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .component.third-component {
-  background-image:url('https://dummyimage.com/1920x1080/dfdfdf/fff');
+  background-image:url('../../public/img/diapo/Diapositive3.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .component.fourth-component {
-  background-image:url('https://dummyimage.com/1920x1080/000/fff');
+  background-image:url('../../public/img/diapo/Diapositive4.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .component.fifth-component {
-  background-image:url('https://dummyimage.com/1920x1080/hfhfhf/fff');
+  background-image:url('../../public/img/diapo/Diapositive5.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-
+.component.six-component {
+  background-image:url('../../public/img/diapo/Diapositive6.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.component.seven-component {
+  background-image:url('../../public/img/diapo/Diapositive7.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.component.eight-component {
+  background-image:url('../../public/img/diapo/Diapositive8.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .pagination-additional-class {
     margin: 0;
     position: fixed;
