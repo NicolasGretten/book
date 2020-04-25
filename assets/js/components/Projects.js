@@ -123,7 +123,7 @@ class Projects extends React.Component {
                     <div class="h1"><i class="fab fa-adobe"></i> Maquettage</div>
                 </div>
             </div>
-            <div class="container mt-5">
+            <div class="container mt-5 mb-5">
                 <div class="row">
                 { this.state.designs.map(design=>
                     <div class="col-4">
