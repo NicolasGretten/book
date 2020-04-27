@@ -68,7 +68,7 @@ class Accueil extends Component {
             </div>
             <div class="container mt-5">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-12 col-md-6 mb-5">
                         <div class="card bg-light">
                             <div class="view overlay">
                                 <iframe src="http://nicolas-gretten.fr:8081" frameborder="0" class="card-img-top" width="500" height="500"></iframe>
@@ -84,7 +84,7 @@ class Accueil extends Component {
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 mb-5">
+                    <div class="col-12 col-md-6 mb-5">
                     <div class="card bg-light">
                             <div class="view overlay">
                                 <iframe src="http://nicolas-gretten.fr:8082" frameborder="0" class="card-img-top" width="500" height="500"></iframe>

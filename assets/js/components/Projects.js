@@ -49,10 +49,10 @@ class Projects extends React.Component {
                     <div class="h1" ><i class="fab fa-firefox"></i> Les Sites</div>
                 </div>
             </div>
-            <div class="container mt-5">
+            <div class="container">
                 <div class="row">
                 { this.state.sites.map(site=>
-                    <div class="col-4" id={"card-sites-" + ( site.index) }>
+                    <div class="col-12 col-lg-4 mb-5" id={"card-sites-" + ( site.index) }>
                         <div class="card bg-light">
                             <div class="view overlay">
                                 <img src={ site.image } class="card-img-top" id={"img-sites-"+ ( site.index )}
@@ -74,15 +74,15 @@ class Projects extends React.Component {
                 )}
                 </div>   
             </div>
-            <div class="container mt-5 pt-5 pb-5">
+            <div class="container pt-5 pb-5">
                 <div class="col p-0">
                     <div class="h1"><i class="fab fa-js-square"></i> Les Jeux</div>
                 </div>
             </div>
-            <div class="container mt-5">
+            <div class="container">
                 <div class="row">
                 { this.state.games.map(game=>
-                    <div class="col-4">
+                    <div class="col-12 col-lg-4 mb-5">
                         <div class="card bg-light">
                             <div class="view overlay">
                                 <img src={ game.image } class="card-img-top"/>
@@ -118,15 +118,15 @@ class Projects extends React.Component {
                     )}
                 </div>  
             </div>
-            <div class="container mt-5 pt-5 pb-5">
+            <div class="container pt-5 pb-5">
                 <div class="col p-0">
                     <div class="h1"><i class="fab fa-adobe"></i> Maquettage</div>
                 </div>
             </div>
-            <div class="container mt-5 mb-5">
+            <div class="container">
                 <div class="row">
                 { this.state.designs.map(design=>
-                    <div class="col-4">
+                    <div class="col-12 col-lg-4 mb-5">
                         <div class="card bg-light">
                             <div class="view overlay">
                                 <img src={ design.image } class="card-img-top"/>

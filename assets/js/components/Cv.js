@@ -22,6 +22,7 @@ class Cv extends React.Component {
                                     alt="Cv Nicolas Gretten 2020"
                                     src='/img/Nicolas-gretten.png'
                                     width="500"
+                                    className= 'img'
                                 />
                             </Zoom>
                         </div>
