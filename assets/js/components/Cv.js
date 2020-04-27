@@ -12,7 +12,7 @@ class Cv extends React.Component {
         return(
             <div>
                 <Nav />
-                    <div class="container mt-5 mb-5">
+                    <div class="container mt-4 mb-4">
                         <div class="col text-center mb-5">
                             <h1>Mon Cv</h1>
                         </div>
@@ -27,7 +27,6 @@ class Cv extends React.Component {
                             </Zoom>
                         </div>
                     </div>
-        )
                 <Footer />
             </div>
             
