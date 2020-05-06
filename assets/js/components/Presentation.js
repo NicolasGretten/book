@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { Pager } from "react-bootstrap";
 import {Link, NavLink} from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 import "../../css/app.css";
@@ -47,7 +48,7 @@ export default class Presentation extends Component {
             <React.Fragment>
                  <div class="container-fluid fixed-bottom mb-4">
                     <div class="d-flex flex-row-reverse">
-                      <Link className={'offset-col-2 btn btn-danger'} title="Accueil" to="/"><i class="fas fa-home"></i></Link>
+                      <Link className={'offset-col-2 btn btn-danger'} title="Accueil" to="/"><FontAwesomeIcon icon={['fas', 'home']}/></Link>
                     </div>
                  </div>
                 <ReactPageScroller

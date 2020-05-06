@@ -29,7 +29,8 @@ class HomeController extends AbstractController
                 'gif' =>'/img/screen_wordpress.png',
                 'name' =>'Wordpress',
                 'desc' =>'Voici un exemple d\'installation Wordpress que j\'ai effectué avec des plugins personnalisez !',
-                'icon' =>'fab fa-wordpress',
+                'icon' =>'wordpress-simple',
+                'brand'=>'fab',
                 'link' =>'http://nicolas-gretten.fr:8081'
             ],
             [
@@ -38,7 +39,8 @@ class HomeController extends AbstractController
                 'gif' => '/img/oni.png',
                 'name' =>'E-boutique',
                 'desc' =>'Je vous présente la boutique réaliser lors de ma formation de développeur web et web mobile.',
-                'icon' =>'fas fa-shopping-cart',
+                'icon' =>'shopping-cart',
+                'brand'=>'fas',
                 'link' =>'http://nicolas-gretten.fr:8082'
             ],
             [
@@ -47,7 +49,8 @@ class HomeController extends AbstractController
                 'gif' => '/img/avoizejotatttoo.gif',
                 'name' =>'Avoizejotattoo.lu',
                 'desc' =>'Lors de mon stage j\'ai eu la chance de pouvoir réaliser le site internet pour le salon de tatouage Avoize & Jo Tatto Studio',
-                'icon' =>'fas fa-code',
+                'icon' =>'code',
+                'brand'=>'fas',
                 'link' =>'https://avoizejotattoo.lu'
             ],
         ];
@@ -72,7 +75,8 @@ class HomeController extends AbstractController
                 'image' =>'/img/Mastermind_cover.png',
                 'name' =>'Mastermind',
                 'desc' =>'Mastermind en JavaScript',
-                'icon' =>'fas fa-dice-one',
+                'icon' =>'dice-one',
+                'brand' =>'fas',
                 'link' =>'http://nicolas-gretten.fr:8084'
             ],
             [
@@ -80,7 +84,8 @@ class HomeController extends AbstractController
                 'image' =>'/img/morpion_cover.png',
                 'name' =>'Morpion',
                 'desc' =>'Morpion en JavaScript',
-                'icon' =>'fas fa-dice-two',
+                'icon' =>'dice-two',
+                'brand' =>'fas',
                 'link' =>'http://nicolas-gretten.fr:8083'
             ],
             [
@@ -88,7 +93,8 @@ class HomeController extends AbstractController
                 'image' =>'/img/keycode_cover.png',
                 'name' =>'Key code',
                 'desc' =>'Keycode en JavaScript',
-                'icon' =>'fas fa-dice-three',
+                'icon' =>'dice-three',
+                'brand' =>'fas',
                 'link' =>'http://nicolas-gretten.fr:8085'
             ],
     ];
@@ -117,7 +123,8 @@ class HomeController extends AbstractController
                 'image' =>'/img/mobile/screen.png',
                 'name' =>'avoizejotattoo.lu',
                 'desc' =>'Maquettage version mobile pour le site avoizejotattoo.lu avec dialogue écrans',
-                'icon' =>'fas fa-palette',
+                'icon' =>'palette',
+                'brand' =>'fas',
                 'size' =>'',
                 'content'=>['/img/mobile/Maquettage_AvoizeJos-01.png','/img/mobile/Maquettage_AvoizeJos-02.png','/img/mobile/Maquettage_AvoizeJos-03.png',
                 '/img/mobile/Maquettage_AvoizeJos-04.png','/img/mobile/Maquettage_AvoizeJos-05.png','/img/mobile/Maquettage_AvoizeJos-06.png',
@@ -130,7 +137,8 @@ class HomeController extends AbstractController
                 'image' =>'/img/desktop/Maquettage_AvoizeJos_Version_Desktop-01.png',
                 'name' =>'avoizejotattoo.lu',
                 'desc' =>'Maquettage du Front End pour le site avoizejotattoo.lu avec dialogue écrans',
-                'icon' =>'fas fa-palette',
+                'icon' =>'palette',
+                'brand' =>'fas',
                 'size' =>'modal-xl',
                 'content'=>['/img/desktop/Maquettage_AvoizeJos_Version_Desktop-01.png','/img/desktop/Maquettage_AvoizeJos_Version_Desktop-02.png',
                 '/img/desktop/Maquettage_AvoizeJos_Version_Desktop-03.png','/img/desktop/Maquettage_AvoizeJos_Version_Desktop-04.png','/img/desktop/Maquettage_AvoizeJos_Version_Desktop-05.png',
@@ -145,7 +153,8 @@ class HomeController extends AbstractController
                 'image' =>'/img/admin/Maquettage_AvoizeJos_panel_admin-1.png',
                 'name' =>'avoizejotattoo.lu',
                 'desc' =>'Maquettage du Panel admin pour le site avoizejotattoo.lu avec dialogue écrans',
-                'icon' =>'fas fa-palette',
+                'icon' =>'palette',
+                'brand' =>'fas',
                 'size' =>'modal-xl',
                 'content'=>['/img/admin/Maquettage_AvoizeJos_panel_admin-1.png','/img/admin/Maquettage_AvoizeJos_panel_admin-2.png','/img/admin/Maquettage_AvoizeJos_panel_admin-3.png',
                 '/img/admin/Maquettage_AvoizeJos_panel_admin-4.png','/img/admin/Maquettage_AvoizeJos_panel_admin-5.png']

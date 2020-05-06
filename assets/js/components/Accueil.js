@@ -1,35 +1,10 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
+
 import Nav from './Nav';
 import Footer from './Footer';
-const ColoredLine = ({ color }) => (
-    <hr
-        style={{
-            color: color,
-            backgroundColor: color,
-            height: 0.1
-        }}
-    />
-);    
-    
+
 class Accueil extends Component {
-    constructor() {
-        super();
-        
-        this.state = { accueil: [], loading: true}
-    }
-    
-    componentDidMount() {
-        // this.getPosts();
-    }
-    
-    getTopProject() {
-        // axios.get(`https://jsonplaceholder.typicode.com/posts/`).then(res => {
-        //     const posts = res.data.slice(0,15);
-        //     this.setState({ posts, loading: false })
-        // })
-    }
-    
     render() {
         return (
            

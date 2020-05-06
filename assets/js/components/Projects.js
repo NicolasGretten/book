@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Nav from './Nav';
 import Footer from './Footer';
 import axios from 'axios';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 class Projects extends React.Component {
@@ -46,7 +47,7 @@ class Projects extends React.Component {
             <Nav />
            <div class="container mt-5 pt-5 pb-5">
                 <div class="col p-0">
-                    <div class="h1" ><i class="fab fa-firefox"></i> Les Sites</div>
+                    <div class="h1" ><FontAwesomeIcon icon={['fab', 'firefox']}/> Les Sites</div>
                 </div>
             </div>
             <div class="container">
@@ -64,7 +65,7 @@ class Projects extends React.Component {
                                 </a>
                             </div>
                             <div class="card-body elegant-color white-text rounded-bottom">
-                                <h4 class="card-title"><i class={ site.icon }></i> { site.name }</h4>
+                                <h4 class="card-title"><FontAwesomeIcon icon={[site.brand,site.icon]}/> { site.name }</h4>
                                 <hr class="hr-light"/>
                                 <p class="card-text white-text mb-4">{ site.desc }</p>
                                 <a href={ site.link } class="btn btn-primary btn-lg float-right">Direction le site !</a>
@@ -76,7 +77,7 @@ class Projects extends React.Component {
             </div>
             <div class="container pt-5 pb-5">
                 <div class="col p-0">
-                    <div class="h1"><i class="fab fa-js-square"></i> Les Jeux</div>
+                    <div class="h1"><FontAwesomeIcon icon={['fab', 'js-square']}/> Les Jeux</div>
                 </div>
             </div>
             <div class="container">
@@ -91,7 +92,7 @@ class Projects extends React.Component {
                                 </a>
                             </div>
                             <div class="card-body elegant-color white-text rounded-bottom">
-                                <h4 class="card-title"><i class={ game.icon }></i> { game.name }</h4>
+                                <h4 class="card-title"><FontAwesomeIcon icon={ game.brand, game.icon }/> { game.name }</h4>
                                 <hr class="hr-light"/>
                                 <p class="card-text white-text mb-4">{ game.desc }</p>
                                 <a href="#" class="btn btn-primary btn-md float-left" data-toggle="modal" data-target={"#modalGame"+(game.index) }>Aperçus du jeu !</a>
@@ -120,7 +121,7 @@ class Projects extends React.Component {
             </div>
             <div class="container pt-5 pb-5">
                 <div class="col p-0">
-                    <div class="h1"><i class="fab fa-adobe"></i> Maquettage</div>
+                    <div class="h1"><FontAwesomeIcon icon={['fab', 'adobe']}/> Maquettage</div>
                 </div>
             </div>
             <div class="container">
@@ -135,7 +136,7 @@ class Projects extends React.Component {
                                 </a>
                             </div>
                             <div class="card-body elegant-color white-text rounded-bottom">
-                                <h4 class="card-title"><i class={ design.icon }></i> { design.name }</h4>
+                                <h4 class="card-title"><FontAwesomeIcon icon={ design.brand, design.icon }/> { design.name }</h4>
                                 <hr class="hr-light"/>
                                 <p class="card-text white-text mb-4">{ design.desc }</p>
                                 <a href={ design.link } class="btn btn-primary btn-lg float-right" data-toggle="modal" data-target={"#modalMaquettage"+(design.index) }>Voir le maquettage !</a>
