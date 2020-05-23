@@ -3,17 +3,17 @@ import Nav from './Nav';
 import Footer from './Footer';
 import axios from 'axios';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Modal from "react-bootstrap/Modal";
-import Button from 'react-bootstrap/Button';
+// import Modal from "react-bootstrap/Modal";
+// import Button from 'react-bootstrap/Button';
 
 class Projects extends React.Component {
     constructor() {
         super();
-        this.handleShow = this.handleShow.bind(this);
-        this.handleClose = this.handleClose.bind(this);
-        this.state = {
-			show: false,
-		};
+        // this.handleShow = this.handleShow.bind(this);
+        // this.handleClose = this.handleClose.bind(this);
+        // this.state = {
+		// 	show: false,
+		// };
         this.state = { 
             sites: [],
             games:[],
@@ -21,13 +21,13 @@ class Projects extends React.Component {
         };
     }
 
-    handleClose() {
-		this.setState({ show: id });
-	}
+    // handleClose() {
+	// 	this.setState({ show: id });
+	// }
 
-	handleShow(id) {
-		this.setState({ show: id });
-	}
+	// handleShow(id) {
+	// 	this.setState({ show: id });
+	// }
     
     componentDidMount() {
         this.getSites();
@@ -112,18 +112,18 @@ class Projects extends React.Component {
                                 <h4 class="card-title"><FontAwesomeIcon icon={ game.brand, game.icon }/> { game.name }</h4>
                                 <hr class="hr-light"/>
                                 <p class="card-text white-text mb-4">{ game.desc }</p>
-                                <Button variant="primary" onClick={this.handleShow(game.name)} className="btn-md float-left">
+                                {/* <Button variant="primary" onClick={this.handleShow(game.name)} className="btn-md float-left">
                                     Aperçus du jeu !
                                 </Button>
                                 <Button variant="warning" onClick={this.handleShow} className="btn-md float-right">
                                     Accéder au jeu
-                                </Button>
-                                {/* <a href="" class="btn btn-primary btn-md float-left" data-toggle="modal" data-target={"#modalGame"+(game.index) }>Aperçus du jeu !</a>
-                                <a href={ game.link } class="btn btn-warning btn-md float-right">Accéder au jeu</a> */}
+                                </Button> */}
+                                <a href="" class="btn btn-primary btn-md float-left" data-toggle="modal" data-target={"#modalGame"+(game.index) }>Aperçus du jeu !</a>
+                                <a href={ game.link } class="btn btn-warning btn-md float-right">Accéder au jeu</a>
                                 
                             </div>
                         </div>
-                            <Modal show={this.state.show} onHide={this.handleClose}>
+                            {/* <Modal show={this.state.show} onHide={this.handleClose}>
                                 <Modal.Header closeButton>
                                     <Modal.Title>{ game.name }</Modal.Title>
                                 </Modal.Header>
@@ -136,8 +136,8 @@ class Projects extends React.Component {
                                         Save Changes
                                     </Button>
                                 </Modal.Footer>
-                            </Modal>
-                        {/* <div class="modal fade w-100 h-100" id={"modalGame"+ (game.index) } tabindex="-1" role="dialog" aria-labelledby={"modalMaquettage"+ (game.index )} aria-hidden="true">
+                            </Modal> */}
+                        <div class="modal fade w-100 h-100" id={"modalGame"+ (game.index) } tabindex="-1" role="dialog" aria-labelledby={"modalMaquettage"+ (game.index )} aria-hidden="true">
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -151,7 +151,7 @@ class Projects extends React.Component {
                                     </div>
                                 </div>
                             </div>
-                        </div> */}
+                        </div>
                     </div>
                     )}
                 </div>  
