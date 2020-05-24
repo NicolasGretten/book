@@ -13,9 +13,9 @@ class Accueil extends Component {
             <div class="container mt-5">
                 <div class="jumbotron  bg-light">
                     <h1 class="display-4">Bienvenue !</h1>
-                    <p class="lead">J'ai créer ce portfolio pour vous présenter mes différents projets réaliser et en cours de réalisation. </p>
+                    <p class="lead">J'ai crée ce portfolio pour vous présenter mes différents projets réalisés et en cours de réalisation. </p>
                     <hr class="my-4"/>
-                    <p>Si vous souhaitez en apprendre plus sur moi cliquez sur ce bouton</p>
+                    <p>Si vous souhaitez en apprendre plus sur moi cliquer sur ce bouton</p>
                     <p class="lead">
                         <Link  className={"btn btn-dark btn-lg"} to={"/cv"}>En apprendre plus</Link>
                     </p>
@@ -54,7 +54,7 @@ class Accueil extends Component {
                             <div class="card-body elegant-color white-text rounded-bottom">
                                 <h4 class="card-title">Mon Wordpress</h4>
                                 <hr class="hr-light"/>
-                                <p class="card-text white-text mb-4">Voici un exemple d'installation Wordpress que j'ai effectué avec des plugins personnalisez !</p>
+                                <p class="card-text white-text mb-4">Voici un exemple d'installation Wordpress que j'ai effectuée avec des plugins personnalisez !</p>
                                 <a href="http://nicolas-gretten.fr:8081" class="btn btn-dark btn-lg float-right">Direction le site !</a>
                             </div>
                         </div>

@@ -45,7 +45,7 @@ html, body {
 }
 
 .component.first-component {
-    background-image:url('../../public/img/diapo/diap1.jpg');
+    background-image:url('../../public/img/diapo/diap1.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -58,46 +58,70 @@ html, body {
 }
 
 .component.second-component {
-  background-image:url('../../public/img/diapo/diap2.jpg');
+  background-image:url('../../public/img/diapo/diap2.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .component.third-component {
-  background-image:url('../../public/img/diapo/diap3.jpg');
+  background-image:url('../../public/img/diapo/diap3.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .component.fourth-component {
-  background-image:url('../../public/img/diapo/diap4.jpg');
+  background-image:url('../../public/img/diapo/diap4.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .component.fifth-component {
-  background-image:url('../../public/img/diapo/diap5.jpg');
+  background-image:url('../../public/img/diapo/diap5.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .component.six-component {
-  background-image:url('../../public/img/diapo/diap6.jpg');
+  background-image:url('../../public/img/diapo/diap6.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .component.seven-component {
-  background-image:url('../../public/img/diapo/diap7.jpg');
+  background-image:url('../../public/img/diapo/diap7.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .component.eight-component {
-  background-image:url('../../public/img/diapo/diap8.jpg');
+  background-image:url('../../public/img/diapo/diap8.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.component.nine-component {
+  background-image:url('../../public/img/diapo/diap9.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.component.ten-component {
+  background-image:url('../../public/img/diapo/diap10.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.component.eleven-component {
+  background-image:url('../../public/img/diapo/diap11.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.component.twelve-component {
+  background-image:url('../../public/img/diapo/diap12.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

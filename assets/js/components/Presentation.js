@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Pager } from "react-bootstrap";
+// import { Pager } from "react-bootstrap";
 import {Link, NavLink} from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -15,6 +15,10 @@ import FifthComponent from "./FifthComponent";
 import SixComponent from "./SixComponent";
 import SevenComponent from "./SevenComponent";
 import EightComponent from "./EightComponent";
+import NineComponent from "./NineComponent";
+import TenComponent from "./TenComponent";
+import ElevenComponent from "./ElevenComponent";
+import TwelveComponent from "./TwelveComponent";
 
 export default class Presentation extends Component {
     constructor(props) {
@@ -63,6 +67,10 @@ export default class Presentation extends Component {
                 <SixComponent />
                 <SevenComponent />
                 <EightComponent />
+                <NineComponent />
+                <TenComponent />
+                <ElevenComponent />
+                <TwelveComponent />
                 </ReactPageScroller>
             </React.Fragment>
         );
