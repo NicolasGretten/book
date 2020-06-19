@@ -26,7 +26,7 @@ class Home extends Component {
                 <Route exact path="/projects">
                     <Projects />
                 </Route>
-                <Route exact path="/presentation">
+                <Route exact path="/lettremotivation">
                     <Presentation />
                 </Route>
             </Switch>

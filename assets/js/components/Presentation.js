@@ -1,78 +1,35 @@
-import React, {Component} from 'react';
-// import { Pager } from "react-bootstrap";
-import {Link, NavLink} from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import React from 'react';
+import Nav from './Nav';
+import Footer from './Footer';
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 
 
-import "../../css/app.css";
-
-import ReactPageScroller from "react-page-scroller";
-import FirstComponent from "./FirstComponent";
-import SecondComponent from "./SecondComponent";
-import ThirdComponent from "./ThirdComponent";
-import FourthComponent from "./FourthComponent";
-import FifthComponent from "./FifthComponent";
-import SixComponent from "./SixComponent";
-import SevenComponent from "./SevenComponent";
-import EightComponent from "./EightComponent";
-import NineComponent from "./NineComponent";
-import TenComponent from "./TenComponent";
-import ElevenComponent from "./ElevenComponent";
-import TwelveComponent from "./TwelveComponent";
-
-export default class Presentation extends Component {
-    constructor(props) {
-        super(props);
-        this.state = { currentPage: null };
-      }
+class Presentation extends React.Component {
     
-    handlePageChange(){number => {
-        this.setState({ currentPage: number });
-      };
-    }
-    
-      getPagesNumbers(){ () => {
-        const pageNumbers = [];
-    
-        for (let i = 1; i <= 5; i++) {
-          pageNumbers.push(
-            <Pager.Item key={i} eventKey={i - 1} onSelect={this.handlePageChange}>
-              {i}
-            </Pager.Item>,
-          );
-        }
-    
-        return [...pageNumbers];
-      };
-    }
-      render() {
-        const pagesNumbers = this.getPagesNumbers();
-    
-        return (
-            <React.Fragment>
-                 <div class="container-fluid fixed-bottom mb-4">
-                    <div class="d-flex flex-row-reverse">
-                      <Link className={'offset-col-2 btn btn-danger'} title="Accueil" to="/"><FontAwesomeIcon icon={['fas', 'home']}/></Link>
+    render() {
+        return(
+            <div>
+                <Nav />
+                    <div class="container mt-4 mb-4">
+                        <div class="col text-center mb-5">
+                            <h1>Ma lettre de motivation</h1>
+                        </div>
+                        <div class="col text-center">
+                            <Zoom>
+                                <img
+                                    alt="Cv Nicolas Gretten 2020"
+                                    src='/img/Lettre_motivation.png'
+                                    width="500"
+                                    className= 'img'
+                                />
+                            </Zoom>
+                        </div>
                     </div>
-                 </div>
-                <ReactPageScroller
-                pageOnChange={this.handlePageChange}
-                customPageNumber={this.state.currentPage}
-                >
-                <FirstComponent />
-                <SecondComponent />
-                <ThirdComponent />
-                <FourthComponent />
-                <FifthComponent />
-                <SixComponent />
-                <SevenComponent />
-                <EightComponent />
-                <NineComponent />
-                <TenComponent />
-                <ElevenComponent />
-                <TwelveComponent />
-                </ReactPageScroller>
-            </React.Fragment>
-        );
-      }
+                <Footer />
+            </div>
+            
+        )
     }
+}
+export default Presentation;

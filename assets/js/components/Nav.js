@@ -23,10 +23,10 @@ export default class Nav extends Component {
                              <NavLink  className={"nav-link"} exact to={"/contact"} title="Contact">Contact</NavLink>
                          </li>
                          <li class="nav-item">
-                             <NavLink className={"nav-link"} exact to={"/presentation"} title="Présentation du projet de stage">Présentation du projet de stage</NavLink>
+                             <NavLink className={"nav-link"} exact to={"/cv"} title="Cv">Cv</NavLink>
                          </li>
                          <li class="nav-item">
-                             <NavLink className={"nav-link"} exact to={"/cv"} title="Cv">Cv</NavLink>
+                             <NavLink className={"nav-link"} exact to={"/lettremotivation"} title="Présentation du projet de stage">Lettre de motivation</NavLink>
                          </li>
                          </ul>
                          <div class="">

@@ -4,7 +4,6 @@ import Footer from './Footer';
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
 
-const images = [{ src : '/img/Nicolas-gretten.png' }];
 
 class Cv extends React.Component {
     
