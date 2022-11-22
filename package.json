@@ -3,7 +3,7 @@
         "@babel/plugin-proposal-class-properties": "^7.8.3",
         "@babel/preset-react": "^7.9.4",
         "@fortawesome/fontawesome-free": "^5.13.0",
-        "@symfony/webpack-encore": "^0.28.2",
+        "@symfony/webpack-encore": "^4.1.2",
         "axios": "^0.19.2",
         "babel-polyfill": "^6.26.0",
         "babel-preset-env": "^1.7.0",
